@@ -10,10 +10,7 @@
     "start": {
       "name": "Run server",
       "command": "npm start",
-      "runAtStart": true,
-      "preview": {
-        "port": 2222
-      }
+      "runAtStart": true
     }
   }
 }
