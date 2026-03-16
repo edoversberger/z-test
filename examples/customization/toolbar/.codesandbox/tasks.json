@@ -7,8 +7,8 @@
     }
   ],
   "tasks": {
-    "vite-dev": {
-      "name": "Run Vite dev server",
+    "start": {
+      "name": "Run server",
       "command": "npm start",
       "runAtStart": true,
       "preview": {
