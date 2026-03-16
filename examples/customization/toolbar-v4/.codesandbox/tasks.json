@@ -1,0 +1,20 @@
+{
+  "$schema": "https://codesandbox.io/schemas/tasks.json",
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "npm ci"
+    }
+  ],
+  "tasks": {
+    "dev-server": {
+      "name": "Run npm dev server",
+      "command": "npm start",
+      "runAtStart": true,
+      "preview": {
+        "port": 5173,
+        "prLink": "direct"
+      }
+    }
+  }
+}
