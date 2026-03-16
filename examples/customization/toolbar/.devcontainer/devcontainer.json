@@ -1,25 +1,4 @@
 {
     "name": "DevContainer - Toolbar customization example",
-    "image": "mcr.microsoft.com/devcontainers/javascript-node:20",
-    "customizations": {
-      "codesandbox": {
-        "setupTasks": [
-          {
-            "name": "Install Dependencies",
-            "command": "npm install"
-          },
-          {
-            "name": "Run Vite dev server",
-            "command": "vite dev"
-          }
-        ]
-      },
-      "vscode": {
-        "extensions": [
-          "dbaeumer.vscode-eslint",
-          "esbenp.prettier-vscode"
-        ]
-      }
-    },
-    "forwardPorts": [3000]
-  }
+    "image": "mcr.microsoft.com/devcontainers/javascript-node:20"
+}

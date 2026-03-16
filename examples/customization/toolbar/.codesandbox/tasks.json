@@ -3,13 +3,13 @@
   "setupTasks": [
     {
       "name": "Install Dependencies",
-      "command": "npm install"
+      "command": "npm install --include dev"
     }
   ],
   "tasks": {
     "vite-dev": {
       "name": "Run Vite dev server",
-      "command": "npm run dev",
+      "command": "npm start",
       "runAtStart": true,
       "preview": {
         "port": 3000
