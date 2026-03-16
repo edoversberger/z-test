@@ -8,8 +8,8 @@
   ],
   "tasks": {
     "start": {
-      "name": "Run server",
-      "command": "npm start",
+      "name": "Run vite dev server",
+      "command": "vite dev",
       "runAtStart": true
     }
   }
