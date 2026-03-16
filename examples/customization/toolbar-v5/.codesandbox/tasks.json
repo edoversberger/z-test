@@ -12,7 +12,7 @@
       "command": "npm start",
       "runAtStart": true,
       "preview": {
-        "port": 5173,
+        "port": 2222,
         "prLink": "direct"
       }
     }
